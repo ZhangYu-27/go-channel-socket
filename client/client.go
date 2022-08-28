@@ -38,7 +38,7 @@ func printAddr(str string, myAddr string) {
 
 func main() {
 	fmt.Println("开始链接 长时间无响应就是")
-	conn, err := net.Dial("tcp", "101.33.233.165:47777")
+	conn, err := net.Dial("tcp", "0.0.0.0:47777")
 	if err != nil {
 		fmt.Println("", err)
 		return
